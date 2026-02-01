@@ -1,0 +1,1 @@
+# Niyatlarni-amalga-oshir.
