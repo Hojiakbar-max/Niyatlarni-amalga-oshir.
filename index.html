@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ramazon – Niyatlar va Duolar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Great+Vibes&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#f7efe8;
+      --card:#fffaf5;
+      --accent:#c7a26a;
+      --text:#5a4a42;
+      --soft:#e9dccf;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:'Poppins',sans-serif;
+      background:var(--bg);
+      color:var(--text);
+    }
+    .container{
+      max-width:420px;
+      margin:0 auto;
+      padding:16px;
+    }
+    .card{
+      background:var(--card);
+      border-radius:18px;
+      padding:24px 20px;
+      margin-bottom:20px;
+      box-shadow:0 10px 25px rgba(0,0,0,.05);
+    }
+    .center{text-align:center}
+    h1,h2,h3{
+      font-family:'Playfair Display',serif;
+      margin:0 0 12px;
+    }
+    .script{
+      font-family:'Great Vibes',cursive;
+      font-size:28px;
+      color:var(--accent);
+    }
+    .divider{
+      width:60px;height:2px;background:var(--accent);
+      margin:12px auto 16px;border-radius:2px;
+    }
+    .muted{opacity:.85;font-size:14px}
+
+    /* Cover */
+    .cover{
+      min-height:520px;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      background:linear-gradient(rgba(255,255,255,.85),rgba(255,255,255,.85)), url('https://images.unsplash.com/photo-1542810634-71277d95dcbb?q=80&w=1200') center/cover no-repeat;
+    }
+
+    /* Dua */
+    .dua-ar{
+      font-size:20px;
+      line-height:1.8;
+      font-family:'Playfair Display',serif;
+    }
+
+    /* List */
+    .list p{margin:10px 0;font-size:14px;line-height:1.7}
+
+    /* Notes */
+    .notes{
+      background:#fff;
+      border-radius:22px;
+      padding:20px;
+      border:1px solid var(--soft);
+    }
+    .line{
+      height:1px;background:var(--soft);
+      margin:10px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Cover -->
+    <section class="card cover center">
+      <h1 class="script">Ramazon</h1>
+      <h2>Niyatlarni amalga oshir</h2>
+      <div class="divider"></div>
+      <p class="muted">Yo'ldoshev Hojiakbar</p>
+    </section>
+
+    <!-- Intro -->
+    <section class="card center">
+      <h3 class="script">Bismillahir rohmanir rohim</h3>
+      <p class="muted">Ramazon – qalbimizga nur sochadigan oy. Bu oyda har bir kichik amal, har bir samimiy niyat muhim.</p>
+      <p class="muted">Bu planner – sizning dilingiz va xohishlaringiz yo‘ldoshi.</p>
+      <p class="muted"><b>Hurmat ila,</b><br/>Yo'ldoshev Hojiakbar</p>
+    </section>
+
+    <!-- Fazilatlar -->
+    <section class="card list">
+      <h3 class="center">Ramazon oyida ro‘zaning fazilatlari</h3>
+      <div class="divider"></div>
+      <p>• Gunohlarning kechirilishiga sabab bo‘ladi.</p>
+      <p>• Ro‘za qalbni poklaydi va sabrni mustahkamlaydi.</p>
+      <p>• Bu oyda savoblar bir necha barobar ortadi.</p>
+      <p class="muted">(Buxoriy va Muslim rivoyatlari asosida)</p>
+    </section>
+
+    <!-- Ozodlik -->
+    <section class="card">
+      <h3 class="center">Ro‘za – do‘zax azobidan qalqondir</h3>
+      <div class="divider"></div>
+      <p class="muted">Ro‘za insonni nafs istaklaridan tiyadi va Allohga yaqinlashtiradi.</p>
+    </section>
+
+    <!-- Saharlik -->
+    <section class="card center">
+      <h3 class="script">Duā</h3>
+      <h2>Saharlik duosi</h2>
+      <p class="dua-ar">Navaytu an asuma sovma shahri ramazona minal fajri ilal mag‘rib, xolisan lillahi ta‘ala. Allohu akbar.</p>
+    </section>
+
+    <!-- Iftorlik -->
+    <section class="card center">
+      <h3 class="script">Duā</h3>
+      <h2>Iftorlik duosi</h2>
+      <p class="dua-ar">Allohumma laka sumtu va bika amantu va ‘alayka tavakkaltu va ‘ala rizqika aftartu.</p>
+    </section>
+
+    <!-- Notes -->
+    <section class="card center">
+      <h3>Bu Ramazonda mening niyatlarim</h3>
+      <div class="notes">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </section>
+
+  </div>
+
+  
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 40px 0;
+      background: #f7f1ea;
+      font-family: 'Patrick Hand', cursive;
+      color: #5a4633;
+    }
+
+    .container {
+      width: 800px;
+      margin: auto;
+      background: #fffaf5;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+
+    h1 {
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 36px;
+      margin-bottom: 25px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    thead th {
+      background: #f1e4db;
+      padding: 12px;
+      font-size: 18px;
+      border: 1px solid #c8b6a6;
+    }
+
+    tbody td {
+      height: 32px;
+      border: 1px solid #c8b6a6;
+    }
+
+    tbody tr:nth-child(even) {
+      background: #fffdfb;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 25px;
+      font-size: 14px;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Kitob o‘qish trekeri</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Kitob nomi</th>
+          <th>Sahifa</th>
+          <th>Boshladim</th>
+          <th>Tugatdim</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+      </tbody>
+    </table>
+
+    <footer>Bintu Rustem</footer>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<title>Ramazon 30 kunlik reja</title>
+
+<style>
+*{
+  box-sizing:border-box;
+  font-family:"Segoe UI",sans-serif;
+}
+body{
+  background:linear-gradient(#f9f5ec,#f1e6d0);
+  margin:0;
+  padding:20px;
+}
+.container{
+  max-width:1100px;
+  margin:auto;
+}
+.day-card{
+  background:#fffaf0;
+  border-radius:22px;
+  padding:25px;
+  margin-bottom:40px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.06);
+}
+.day-title{
+  text-align:center;
+  font-size:32px;
+  color:#9c7a3c;
+  margin-bottom:25px;
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+  gap:20px;
+}
+.box{
+  background:#fff;
+  border:1px solid #e6dcc8;
+  border-radius:16px;
+  padding:15px;
+}
+.box h3{
+  text-align:center;
+  margin-bottom:10px;
+  color:#8b6b2e;
+}
+label{
+  display:block;
+  margin-bottom:6px;
+  font-size:14px;
+  cursor:pointer;
+}
+input[type="checkbox"]{
+  margin-right:6px;
+  transform:scale(1.1);
+}
+.dua{
+  margin-top:30px;
+  padding:20px;
+  background:#f3ead7;
+  border-radius:16px;
+  text-align:center;
+}
+.dua h4{
+  margin-bottom:10px;
+  color:#7a5a22;
+}
+.dua p{
+  font-size:14px;
+  line-height:1.6;
+}
+@media(max-width:600px){
+  .day-title{font-size:26px;}
+}
+</style>
+</head>
+
+<body>
+<div class="container" id="app"></div>
+
+<script>
+const app = document.getElementById("app");
+
+const namozlar = [
+  "Bomdod","Peshin","Asr","Shom","Xufton",
+  "Taroveh","Vitr","Zuho","Tahajjud"
+];
+
+const tasbeh = [
+  "Istig‘for – 100",
+  "Laa ilaaha illalloh – 100",
+  "Salovot – 100",
+  "La havla va la quvvata illa billah",
+  "Subhanallohi va bihamdihi",
+  "Subhanallohil azim"
+];
+
+for(let day=1; day<=30; day++){
+  app.innerHTML += `
+  <div class="day-card">
+    <h2 class="day-title">${day} kun</h2>
+
+    <div class="grid">
+
+      <div class="box">
+        <h3>Namozlar</h3>
+        ${namozlar.map(n=>cb(day,n)).join("")}
+      </div>
+
+      <div class="box">
+        <h3>Tasbeh</h3>
+        ${tasbeh.map(t=>cb(day,t)).join("")}
+      </div>
+
+      <div class="box">
+        <h3>Qur’on</h3>
+        ${cb(day,"Fotiha surasi")}
+        ${cb(day,`${day}-chi pora`)}
+      </div>
+
+      <div class="box">
+        <h3>Ro‘zalar</h3>
+        ${cb(day,"Saharlik")}
+        ${cb(day,"Iftorlik")}
+      </div>
+
+    </div>
+
+    <div class="dua">
+      <h4>Duо</h4>
+      <p>
+        Allohim, bugungi ibodatlarimizni qabul qilgin,
+        qalblarimizni hidoyatda sobit qilgin,
+        Ramazon oyini bizlar uchun barakali qilgin.
+      </p>
+    </div>
+  </div>`;
+}
+
+function cb(day,text){
+  const id = `d${day}-${text.replace(/\s+/g,"")}`;
+  return `
+  <label>
+    <input type="checkbox" id="${id}">
+    ${text}
+  </label>`;
+}
+
+// checkbox holatini saqlash
+document.addEventListener("change",e=>{
+  if(e.target.type==="checkbox"){
+    localStorage.setItem(e.target.id,e.target.checked);
+  }
+});
+
+document.querySelectorAll("input[type=checkbox]").forEach(cb=>{
+  cb.checked = localStorage.getItem(cb.id)==="true";
+});
+</script>
+</body>
+</html>
+
+
+
+
